@@ -7,23 +7,49 @@
   <title>All-in-One TabBox</title>
   <style>
     body { font-family: sans-serif; line-height: 1.6; margin: 2em; background: #fdfdfd; color: #333; }
-    h1 { font-size: 2em; margin-bottom: 0.5em; }
-    p { margin-bottom: 1em; }
+    h1, h2 { color: #222; }
+    ul { margin-left: 1.2em; }
     footer { margin-top: 3em; font-size: 0.9em; color: #555; }
     a { color: #007acc; text-decoration: none; }
+    .box { background: #fff; border: 1px solid #ccc; padding: 1em; margin: 1em 0; border-radius: 4px; }
   </style>
 </head>
 <body>
   <h1>All-in-One TabBox</h1>
-  <p>
-    All-in-One TabBox は、Chrome 拡張機能として、タブのワークスペース管理、タグ付け、メモ、ロック、クラウド同期などを提供するツールです。
-  </p>
-  <p>
-    Google ログインによる認証と同期が可能で、無料プラン・ベーシックプラン（480円/月）・プレミアムプラン（980円/月）があります。
-  </p>
-  <p>
-    詳しくは <a href="legal.html">特定商取引法に基づく表記</a> をご覧ください。
-  </p>
+  <p>All-in-One TabBox は、Chrome 拡張機能として、タブのワークスペース管理、タグ付け、メモ、ロック、クラウド同期などを提供するツールです。</p>
+
+  <div class="box">
+    <h2>主な機能</h2>
+    <ul>
+      <li>ワークスペース／カテゴリごとのタブ保存・整理</li>
+      <li>クラウド同期（Googleログイン + Firestore）</li>
+      <li>タグ・メモ・ドラッグ並び替え・ロック・アーカイブ</li>
+      <li>ダークモード対応</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>料金プラン</h2>
+    <ul>
+      <li><strong>無料プラン：</strong>3ワークスペース / 5カテゴリ / 60タブまで</li>
+      <li><strong>ベーシック：</strong>480円/月（税込） - 10ワークスペース / 15カテゴリ / 150タブ</li>
+      <li><strong>プレミアム：</strong>980円/月（税込） - 無制限</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>現在の状況</h2>
+    <p>現在は開発中で、課金機能（Stripe連携）はまだ実装されていません。</p>
+    <p>リリース目標：2025年夏頃を予定</p>
+  </div>
+
+  <div class="box">
+    <h2>お問い合わせ</h2>
+    <p>ご質問・ご連絡はこちら：<a href="mailto:xariakaymx@gmail.com">xariakaymx@gmail.com</a></p>
+  </div>
+
+  <p>詳しくは <a href="legal.html">特定商取引法に基づく表記</a> をご覧ください。</p>
+
   <footer>
     &copy; 2025 All-in-One TabBox<br />
     運営：All-in-One TabBox 運営チーム（Stripe登録済）<br />
