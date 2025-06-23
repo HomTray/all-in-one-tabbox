@@ -4,6 +4,28 @@
   <meta charset="UTF-8">
   <title>All-in-One TabBox - 公式情報</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      background: #fff;
+      padding: 2rem;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h1, h2 {
+      color: #222;
+    }
+    section {
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -13,29 +35,33 @@
       完全無料で、使い放題。作業効率を向上させるスマートなタブ管理ツール。
     </p>
 
-    <nav>
-      <ul>
-        <li><a href="#terms">利用規約</a></li>
-        <li><a href="#privacy">プライバシーポリシー</a></li>
-        <li><a href="#legal">特定商取引法に基づく表記</a></li>
-      </ul>
-    </nav>
-
-    <section id="terms">
+    <section>
       <h2>利用規約</h2>
-      <p>本拡張機能は、ユーザーのブラウザで開いているタブ情報を保存・管理・復元することを目的とした無料のツールです。<br>
+      <p>
+        本拡張機能は、ユーザーのブラウザで開いているタブ情報を保存・管理・復元することを目的とした無料のツールです。<br>
         ユーザーは自己の責任で本拡張機能を利用するものとし、当方は機能の正確性・完全性・継続性を保証するものではありません。<br>
-        本機能は予告なく変更または終了することがあります。</p>
+        本機能は予告なく変更または終了することがあります。
+      </p>
     </section>
 
-    <section id="privacy">
+    <section>
       <h2>プライバシーポリシー</h2>
-      <p>本拡張機能は、ユーザーが現在開いているタブの URL・タイトル・favicon などをローカル環境に保存します。<br>
-        保存データはユーザーの端末内（chrome.storage.local）で管理され、外部に送信されることはありません。<br>
-        今後クラウド同期機能（Googleログインによる同期）を実装する場合は、メールアドレス等が使用されますが、第三者への提供・販売は一切行いません。</p>
+      <p>
+        当拡張機能「All-in-One TabBox」は、Google Chromeウェブストアの
+        <a href="https://developer.chrome.com/docs/webstore/program-policies/privacy/" target="_blank">プライバシーに関するポリシー</a>
+        に準拠して提供されています。
+      </p>
+      <ul>
+        <li>保存される情報：ユーザーが現在開いているタブのURL、タイトル、favicon、および任意で入力されたタグ・メモ</li>
+        <li>データの保存先：ユーザーのローカルストレージ（chrome.storage.local）</li>
+        <li>収集目的：ユーザー自身によるタブの整理・保存・復元を支援するため</li>
+        <li>クラウド機能（開発中）：Googleログイン機能を通じた同期機能を導入予定。ユーザーの許可なくメールアドレス等の情報を収集・送信することはありません。</li>
+        <li>第三者提供：ユーザーデータは一切第三者に販売・譲渡・共有されません</li>
+        <li>ユーザー制御：保存されたタブデータはいつでも編集・削除可能です</li>
+      </ul>
     </section>
 
-    <section id="legal">
+    <section>
       <h2>特定商取引法に基づく表記</h2>
       <p><strong>販売事業者：</strong> All-in-One TabBox 開発チーム</p>
       <p><strong>所在地：</strong> Web上でのソフトウェア提供のため、開示義務の対象外</p>
